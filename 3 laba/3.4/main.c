@@ -11,7 +11,7 @@ scanf("%d",&y);
 if((1+x*x+y*y) == 0){
     printf("\n Null u znamenuku");
 }
-else{ f = (float)(x*x+x*y-y*y)/(1+x*x+y*y);
+else{ f = (x*x+x*y-y*y)/(1+x*x+y*y);
 printf("\n\tf = %.3f",f);
 }
     return 0;
